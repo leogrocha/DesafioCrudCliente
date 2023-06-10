@@ -1,0 +1,1 @@
+insert into tb_client (name, cpf, income, birth_date, children) values ('Seu madruga', '135.457.844-77', 5000.00, '1970-01-01', 1);
