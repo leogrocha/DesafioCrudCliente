@@ -1,1 +1,10 @@
-insert into tb_client (name, cpf, income, birth_date, children) values ('Seu madruga', '135.457.844-77', 5000.00, '1970-01-01', 1);
+insert into tb_client (name, cpf, income, birth_date, children) values ('Gabriela', '135457.14577', 5000.00, '1970-01-01', 1);
+insert into tb_client (name, cpf, income, birth_date, children) values ('Larissa', '461457.19777', 6000.00, '1980-01-01', 0);
+insert into tb_client (name, cpf, income, birth_date, children) values ('Walter', '695457.14177', 4000.00, '2000-01-01', 3);
+insert into tb_client (name, cpf, income, birth_date, children) values ('Luana', '457457.16977', 3000.00, '1987-01-01', 0);
+insert into tb_client (name, cpf, income, birth_date, children) values ('Leonardo', '124457.14277', 10000.00, '1968-01-01', 0);
+insert into tb_client (name, cpf, income, birth_date, children) values ('Luiza', '695457.12377', 5000.00, '1999-01-01', 1);
+insert into tb_client (name, cpf, income, birth_date, children) values ('Felipe', '245457.12377', 1500.00, '1998-01-01', 2);
+insert into tb_client (name, cpf, income, birth_date, children) values ('Rafael', '758457.12377', 3200.00, '2001-01-01', 3);
+insert into tb_client (name, cpf, income, birth_date, children) values ('Ana', '164.45712377', 8000.00, '1988-01-01', 2);
+insert into tb_client (name, cpf, income, birth_date, children) values ('José', '457.45712377', 2000.00, '1979-01-01', 4);

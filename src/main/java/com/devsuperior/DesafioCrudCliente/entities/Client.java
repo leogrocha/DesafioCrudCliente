@@ -2,6 +2,8 @@ package com.devsuperior.DesafioCrudCliente.entities;
 
 import java.time.LocalDate;
 
+import com.devsuperior.DesafioCrudCliente.dto.ClientDTO;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -32,6 +34,15 @@ public class Client {
         this.income = income;
         this.birthDate = birthDate;
         this.children = children;
+    }
+
+    public Client(ClientDTO dto) {
+        id = dto.getId();
+        name = dto.getName();
+        cpf = dto.getCpf();
+        income = dto.getIncome();
+        birthDate = dto.getBirthDate();
+        children = dto.getChildren();
     }
 
     public Long getId() {
